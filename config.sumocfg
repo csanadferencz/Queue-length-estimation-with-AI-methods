@@ -1,0 +1,26 @@
+<configuration>
+	
+	<input>
+        <net-file value="network.net.xml"/>
+		<route-files value="routes.rou.xml"/>
+    </input>
+	
+	<processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+	
+	<time>
+        <begin value="0"/>
+        <end value="10"/>
+    </time>
+	
+	<gui-settings-file value="gui-settings.cfg"/>
+    <additional-files value="add.xml"/>
+	
+</configuration>

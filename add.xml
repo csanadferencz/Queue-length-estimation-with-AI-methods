@@ -1,0 +1,9 @@
+<additionals>
+    <route id="route2" edges="4to1 1to2 2to3 3to4 4to5 5to6 6to7 7to4 4to1"/>
+    <rerouter id="rerouter_0" edges="4to1">	
+		<interval end="1e9">
+		   <routeProbReroute id="route2"/>
+		</interval>
+	</rerouter>
+    
+</additionals>
